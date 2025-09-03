@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Suki • Private Reservations</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">Book<span>Suki</span></h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#booking">Booking</a>
+        <a href="#payments">Payments</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Discreet • Elegant • Professional</h2>
+      <p>Request a booking for dinner dates, events, or travel. Secure and confidential.</p>
+      <a href="#booking" class="cta">Request Booking</a>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About</h2>
+      <p>Elegant, discreet companionship available by appointment. Respect, safety, and privacy are always the priority.</p>
+    </div>
+  </section>
+
+  <section id="booking" class="section alt">
+    <div class="container">
+      <h2>Request a Booking</h2>
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="booking-form">
+        <label>Name <input type="text" name="name" required></label>
+        <label>Email <input type="email" name="email" required></label>
+        <label>Phone <input type="tel" name="phone" required></label>
+        <label>Date <input type="date" name="date" required></label>
+        <label>Time <input type="time" name="time" required></label>
+        <label>Duration
+          <select name="duration" required>
+            <option value="2 Hours">2 Hours</option>
+            <option value="4 Hours">4 Hours</option>
+            <option value="Overnight">Overnight</option>
+          </select>
+        </label>
+        <label>Notes / Venue <textarea name="notes"></textarea></label>
+        <button type="submit" class="cta">Submit Request</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="payments" class="section">
+    <div class="container">
+      <h2>Payment Options</h2>
+      <p>Choose your preferred method below (links are placeholders, customize them to your own accounts):</p>
+      <ul class="payments">
+        <li><a href="#" class="pay-btn">Pay with PayPal</a></li>
+        <li><a href="#" class="pay-btn">Pay with CashApp</a></li>
+        <li><a href="#" class="pay-btn">Pay with Zelle</a></li>
+        <li><a href="#" class="pay-btn">Pay with Bitcoin</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="section alt">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Book Suki • All Rights Reserved</p>
+    </div>
+  </footer>
+</body>
+</html>
